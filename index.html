@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays in JS</title>
+</head>
+<body>
+    <h1>Arrays in JS</h1>
+
+    <script>
+        const languages = ["C","C++","Java","Python","Rubby"];
+        console.log(languages);
+        console.log(languages[1]);
+
+        const count = languages.length;
+        console.log(`Array length: ${count}`);
+
+        languages.push("javascript");
+        console.log("Array after push");
+        console.log(languages);
+        languages.push("css","HTML");
+        console.log(languages);
+
+        console.log("Array after pop");
+        languages.pop();
+        console.log(languages);
+
+
+
+    </script>
+    
+</body>
+</html>
