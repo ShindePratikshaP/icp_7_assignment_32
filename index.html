@@ -16,21 +16,32 @@
         const count = languages.length;
         console.log(`Array length: ${count}`);
 
+        /* Array after pop */
         languages.push("javascript");
         console.log("Array after push");
         console.log(languages);
         languages.push("css","HTML");
         console.log(languages);
 
+        /* Array after pop */
         console.log("Array after pop");
         languages.pop();
         console.log(languages);
 
+        /* Array after unshift */
         console.log("Array after unshift");
         languages.unshift(".net","C#");
         console.log(languages);
 
+        /* Array after shift */
         console.log("Array after shift");
+        languages.shift();
+        console.log(languages);
+        
+        /* Implemenmting Queue using Array */
+        console.log("Implemenmting Queue using Array");
+        languages.push("javascript");
+        console.log(languages);
         languages.shift();
         console.log(languages);
 
